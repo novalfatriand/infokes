@@ -1,0 +1,53 @@
+:root
+body{
+    min-height: 100%;
+    font-family:"Poppins", serif !important;
+}
+
+/* .home {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                url('../media/img/logo.png');
+    background-size: 100hv;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+ 
+.home h1, 
+.home h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*
+.home h1{
+    font-size: 3rem;
+    padding-top: 10rem ;
+}
+
+.home h2{
+    font-size: 2rem;
+} */
+
+.logo {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+  }
+
+@media screen and (max-width: 1024px){
+    .home h1, 
+    .home h2{
+    font-size: 2.25rem;
+}
+}
+
+@media screen and (max-width: 768px){
+    .home h1, 
+    .home h2{
+    font-size: 1.5rem;
+}
+}
