@@ -12,10 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -114,20 +111,8 @@
             </div>
           </div>
         </div>
-        <div class="bg-gray-100 py-12">
-          <div class="grid grid-cols-2 gap-6">
-            <div class="ml-10 bg-white rounded-md p-4 shadow-lg lg:ml-40">
-              <h1 class="font-extrabold text-3xl">IClinic adalah</h1>
-              <h2 class="pt-2">Perusahaan Rumah Sakit Berbasis website yang menyediakan solusi digital untuk mendukung fasilitas kesehatan di Indonesia dari apotek, klinic, puskesmas hingga rumah sakit melalui penggunaan teknologi.</h2>
-            </div>
-            <div class="mr-16 bg-white rounded-md p-4 shadow-lg">
-              <h1 class="font-extrabold text-3xl">Visi</h1>
-              <h2 class="pt-2">Menjadi solusi teknologi kesehatan yang terdepan dan terpercaya di indonesia</h2>
-            </div>
-          </div>
-        </div>
-        <div class="pt-20 pb-32 py-10">
-          <h1 class="text-center text-3xl ml-4 text-blue-950">Kami telah diberikan kepercayaan <br> oleh banyak fasilitas kesehatan di Indonesia</h1>
+        <div class="pt-20 pb-32 py-10 mt-20">
+          <h1 class="text-center text-2xl ml-4 text-blue-950">Kami telah diberikan kepercayaan <br> oleh banyak fasilitas kesehatan di Indonesia</h1>
           <div class="grid grid-cols-1 py-16 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
             <div class="mb-5 w-6/12 rounded-lg p-4 shadow-lg bg-blue-950 lg:ml-32 md:w-9/12">
               <p class="text-lg ml-8 text-white">Berdiri sejak</p>
@@ -158,42 +143,41 @@
         <div class="pl-10 bg-gray-200 py-10 md:pl-20">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <div>
-          <p class="text-md font-bold text-blue-950 tracking-widest">Our Leader</p>
-          <h1 class="mt-2 text-3xl font-bold">Healthtech solution that you can trust</h1>
-          <h2 class="mt-2">Noval Fatriandiko memulai jejak karirnya sebagai seorang website developer pada tahun 2022 di Perusahaan BCA. Disana, ia fokus mengembangkan skillnya. Ia memimpin pengembangan platform teknologi kesehatan yang aman dan terpercaya yang telah membantu jutaan pasien terhubung dengan ribuan fasilitas kesehatan terbaik di Indonesia.</h2>
-          <h2 class="mt-2">Dibawah kepemimpinannya, IClinic terus berkembang pesat dan telah menjadi platform kesehatan terkemuka di Indonesia. Noval Fatriandiko terus berinovasi untuk menghadirkan solusi teknologi yang dapat membantu meningkatkan layanan kesehatan bagi masyarakat Indonesia.</h2>
+          <p class="text-md font-bold text-blue-950 tracking-widest mt-20">Our Leader</p>
+          <h1 class="mt-4 text-3xl font-bold">Healthtech solution that you can trust</h1>
+          <h2 class="mt-3 font-light">Selamat datang di iClinic, solusi inovatif untuk sistem informasi manajemen rumah sakit yang dirancang untuk mempermudah operasional, meningkatkan efisiensi, dan memberikan pelayanan kesehatan yang lebih baik dengan teknologi canggih yang terintegrasi.</h2>
             </div>
             <div class="grid justify-center mt-8 lg:mt-4">
           <img src="media/img/pale.jpg" alt="pale" width="300" class="rounded-md">
-          <p class="bg-blue-800 text-center font-medium text-white rounded-md p-4 mt-4 lg:p-2 w-300">Noval Fatriandiko, Project Manager</p>
+          <p class="bg-blue-800 text-center font-medium text-white rounded-md p-4 mt-4 lg:p-2 w-300">Noval Fatriand <br><span class="font-extralight">Project Manager</span></p>
             </div>
           </div>
 
 
           <div class="text-center mt-16 mb-6">
             <h1 class="font-bold text-3xl text-blue-950">Our Teams</h1>
-            <h2>Leader kami merupakan praktisi yang berangkat dari berbagai latar belakang yang berbeda</h2>
+            <h2 class="font-light mt-2">Leader kami merupakan praktisi yang berangkat dari berbagai latar belakang yang berbeda</h2>
           </div>
           <div class="grid grid-cols-8 justify-center gap-6">
             <div class="col-start-1 col-span-2 sm:col-start-2 lg:w-[220px]">
               <img src="media/img/fahri.jpg" alt="fahri" class="rounded-md">
-              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">FACHRI AZIZ</p>
+              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">Fachri Azis <br><span class="font-extralight">Front-End Developer</span></p>
             </div>
             <div class="col-start-3 col-span-2 sm:col-start-4 lg:w-[220px]">
               <img src="media/img/zaki.jpg" alt="zaki" class="rounded-md">
-              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">MUHAMMAD SULTAN ZAKKI</p>
+              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">Muhammad Sultan Zakki <br><span class="font-extralight">Desainer</span></p>
             </div>
             <div class="col-start-5 col-span-2 sm:col-start-6 lg:w-[220px]">
               <img src="media/img/rangga.jpg" alt="rangga" class="rounded-md">
-              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">RANGGAFALIH ARSYANDA</p>
+              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">Ranggafalih Arsyanda <br><span class="font-extralight">Front-End Developer</span></p>
             </div>
             <div class="col-start-2 col-span-2 sm:col-start-3 lg:w-[220px]">
               <img src="media/img/caya.jpg" alt="cahaya" class="rounded-md">
-              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">CAHAYA IKEU PUTRI</p>
+              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">Cahaya Ikeu Putri <br><span class="font-extralight">Desainer</span></p>
             </div>
             <div class="col-start-4 col-span-2 sm:col-start-5 lg:w-[220px]">
               <img src="media/img/mauly.jpg" alt="mauly" class="rounded-md">
-              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">MAULY SITTA RAHMANIA</p>
+              <p class="bg-blue-800 text-center font-medium text-white rounded-md mt-1 p-2 text-xs md:text-base">Mauly Sitta Rahmania <br><span class="font-extralight">Desainer</span></p>
             </div>
           </div>
 
@@ -201,6 +185,9 @@
       </div>
 
     </section>
+
+
+
 
     <section id="Kontak">
       <div class="kontak">
